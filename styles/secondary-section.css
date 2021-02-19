@@ -1,0 +1,52 @@
+.section_secondary {
+  height: auto;
+  width: 100vw;
+
+  background-color: #faf8f8;
+}
+.ss_article {
+  height: 50vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ss_art_div {
+
+  height: 30%;
+  width: 25%;
+
+  margin-right: 10em;
+}
+.ss_art_div_inv {
+
+  height: 30%;
+  width: 25%;
+
+  margin-left: 10em;
+}
+.ssa_d_h3 {
+  height: 70%;
+  width: 100%;
+
+  font-size: 2em;
+}
+.ssa_d_p {
+  height: 30%;
+  width: 100%;
+
+  font-size: 1em;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+.ssa_d_a {
+  height: 20%;
+  width: 100%;
+
+  font-size: 1em;
+  font-style: none;
+  color: #2F70FE;
+  text-decoration: none;
+}
