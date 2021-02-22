@@ -14,7 +14,7 @@
   height: 100%;
   width: 50%;
 
-  margin-right: 7em;
+  margin-right: 5vw;
   
   display: flex;
   align-items: center;
@@ -37,26 +37,28 @@
 }
 .h_nav_but {
   align-items: center;
-  padding: 12px 23px;
+  padding: 12px 24px;
 
   background: #ecebeb;
   border: 1px solid #2F70FE;
-  box-sizing: border-box;
   
   color: #2F70FE;
   font-weight: 700;
   font-size: 1em;
+
+  cursor: pointer;
 }
 .h_nav_but_login {
   background-color:  #ecebeb;
-  border-style: none;
-  border-width: 0px;    
-
+  border-style: none;   
+  
   width: 10%;
   height: 75%;
 
   font-size: 16px;
   font-weight: 600;
+
+  cursor: pointer;
 
   transition-timing-function: ease-in-out;
   transition-duration: .1s;
